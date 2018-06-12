@@ -1,14 +1,16 @@
 {
-  "name": "react_training_deepak",
-  "version": "1.0.0",
+  "name": "react_training_express",
+  "version": "1.0.2",
   "main": "index.js",
-  "description": "test publish react training",
+  "description": "test publish react express training",
   "license": "MIT",
   "scripts": {
+    "dev": "make dev",
     "test": "make TEST",
     "prepublish": "make TEST"
   },
   "dependencies": {
+    "@types/express": "^4.16.0",
     "eslint": "4.19.1",
     "express": "4.16.3"
   }
